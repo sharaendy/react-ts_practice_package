@@ -1,20 +1,5 @@
-import { Slider } from '../Slider/Slider';
-import image from '../../img/picture_1.jpg';
+import { Header } from 'src/components/Header/Header/';
 
 export const App = () => {
-  return (
-    <div>
-      <Slider
-        reviews={[
-          {
-            id: 1,
-            author: 'Андрей Шараевский',
-            jobPosition: 'Главный молодец',
-            text: 'Нормально дейлай, нормально будет. Я всегда так говорю.',
-            image,
-          },
-        ]}
-      />
-    </div>
-  );
+  return <Header />;
 };

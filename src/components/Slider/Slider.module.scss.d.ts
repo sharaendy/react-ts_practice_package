@@ -1,1 +1,0 @@
-export const slider: string;
